@@ -1,0 +1,61 @@
+body {
+  background-color: #f0f8ff; /* Cor suave para o fundo */
+}
+h1 {
+  color: #4a90e2; /* Cor diferente para o título */
+  text-align: center; /* Centraliza o título */
+}
+p {
+  font-size: 1.2em; /* Tamanho de fonte maior para o parágrafo */
+  text-align: justify; /* Justifica o texto do parágrafo */
+}
+ul {
+  margin: 20px; /* Espaçamento maior entre os itens da lista */
+  padding: 10px; /* Adiciona preenchimento à lista */
+}
+img {
+  /* Centraliza a imagem */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  display: block; /* Necessário para centralizar a imagem */
+  border-radius: 15px; /* Bordas arredondadas para a imagem */
+  width: 300px; /* Tamanho adequado para a imagem */
+  height: 100px; /* Mantém a proporção da imagem */
+}
+table {
+  width: 75%; /* Largura total da tabela */
+  border-collapse: collapse; /* Remove espaçamento entre células */
+  margin: 20px auto; /* Centraliza a tabela na página */
+}
+th,
+td {
+  border: 1px solid #ddd; /* Borda para as células da tabela */
+  padding: 8px; /* Preenchimento interno das células */
+  text-align: left; /* Alinhamento do texto à esquerda */
+}
+th {
+  background-color: #4a90e2; /* Cor de fundo para o cabeçalho da tabela */
+  color: white; /* Cor do texto do cabeçalho */
+}
+a {
+  color: #4a90e2; /* Cor do link */
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+a:hover {
+  color: #d0021b; /* Cor do link ao passar o mouse */
+  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+/* Adiciona uma transição suave para a mudança de cor do link */
+a {
+  transition: color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+/* Estilo para o botão */
+button {
+  background-color: #4a90e2; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 10px 20px; /* Preenchimento interno do botão */
+  border-radius: 5px; /* Bordas arredondadas para o botão */
+  cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+  /*centraliza o botão na página */
+  display: block; /* Necessário para centralizar o botão */
+  margin: 20px auto; /* Centraliza o botão horizontalmente */
+}
